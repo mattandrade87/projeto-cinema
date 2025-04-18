@@ -1,0 +1,72 @@
+body {
+  background-color: #04040c;
+}
+
+.imagem-logotipo-site {
+  display: block;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin: 0% auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.titulo-filmes-destaque {
+  text-align: center;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 32px;
+  color: #f5f5f5;
+  margin-top: 30px;
+}
+
+.meu-botao {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  background-color: #04040c; /* cor de fundo */
+  color: white; /* cor do texto */
+  padding: 8px 16px; /* espaçamento interno */
+  border: none; /* sem borda */
+  border-radius: 8px; /* cantos arredondados */
+  font-size: 16px; /* tamanho da fonte */
+  cursor: pointer; /* muda o cursor ao passar por cima */
+  transition: background-color 0.5s ease; /* animação suave */
+  z-index: 1000; /* Fica acima de outros elementos*/
+}
+
+.meu-botao:hover {
+  background-color: #f5f5f5; /* cor quando passa o mouse */
+  color: #04040c;
+}
+
+.card {
+  /* color: #f5f5f5; */
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  margin-left: 20px;
+  display: block;
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.titulo-secao-acao {
+  margin-top: 0px;
+  margin-left: 20px;
+  font-size: 32px;
+  color: #f5f5f5;
+}
