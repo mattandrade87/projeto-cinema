@@ -6,7 +6,6 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
 }
 
 datasource db {
@@ -20,6 +19,7 @@ model Filme {
   descricao String?
   ano       Int
   capa      String
+  genero    String[]
   criticas  Critica[]
 }
 
